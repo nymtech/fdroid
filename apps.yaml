@@ -1,8 +1,6 @@
 NymVPN:
   git: https://github.com/nymtech/nym-vpn-android
   name: "NymVPN"
-  WebSite: https://nymvpn.com
-  IssueTracker: https://github.com/nymtech/nym-vpn-android/issues
   description: |
     Download our VPN and make your online activity 100% private. Fast and anonymous.
 
