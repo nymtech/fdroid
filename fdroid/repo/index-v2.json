@@ -14,42 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
-    "timestamp": 1715316261000
+    "timestamp": 1715318020000
   },
   "packages": {
-    "8995dfa551b21ee5cdcc109da041f357f2b570306d24afa0509fc889892f5fea": {
-      "metadata": {
-        "added": 1715299200000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1715299200000,
-        "name": {
-          "en-US": "icon"
-        }
-      },
-      "versions": {
-        "8995dfa551b21ee5cdcc109da041f357f2b570306d24afa0509fc889892f5fea": {
-          "added": 1715299200000,
-          "file": {
-            "name": "/icon.png",
-            "sha256": "8995dfa551b21ee5cdcc109da041f357f2b570306d24afa0509fc889892f5fea",
-            "size": 3837
-          },
-          "manifest": {
-            "versionName": "8995dfa",
-            "versionCode": 0
-          }
-        }
-      }
-    },
     "net.nymtech.nymvpn": {
       "metadata": {
         "added": 1715299200000,
         "categories": [
           "Security"
         ],
-        "lastUpdated": 1715316254000,
+        "lastUpdated": 1715299200000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/nymtech/nym-vpn-android",
         "screenshots": {
