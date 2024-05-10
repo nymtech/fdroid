@@ -6,8 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for Nym apps. This
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/xarantolus/notality"><img src="fdroid/repo/icons/io.github.xarantolus.notality.10.png" alt="Notality icon" width="36px" height="36px"></a> | [**Notality**](https://github.com/xarantolus/notality) | A very simple note taking app for Android | 1.8.1 (10) |
-| <a href="https://github.com/xarantolus/rockit"><img src="fdroid/repo/icons/" alt="Rock It! icon" width="36px" height="36px"></a> | [**Rock It!**](https://github.com/xarantolus/rockit) | Rock It! is an Android app that helps you stay informed on all things space | 1.5.0 (22) |
+| <a href="https://github.com/nymtech/nym-vpn-android"><img src="fdroid/repo/icons/" alt="NymVPN icon" width="36px" height="36px"></a> | [**NymVPN**](https://github.com/nymtech/nym-vpn-android) | The NymVPN client app for Android | v1.0.1 (10100) |
 <!-- end apps table -->
 
 ### How to use
