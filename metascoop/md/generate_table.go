@@ -16,7 +16,7 @@ const (
 
 	tableTmpl = `
 | Name | Description | Version |
-| --- | --- | --- | --- |{{range .Apps}}
+| --- | --- | --- |{{range .Apps}}
 | [**{{.name}}**]({{.sourceCode}}) | {{.summary}} | {{.suggestedVersionName}} ({{.suggestedVersionCode}}) |{{end}}
 ` + tableEnd
 )
