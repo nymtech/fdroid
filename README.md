@@ -21,7 +21,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for Nym apps. This
     Alternatively, you can also scan this QR code:
 
     <p align="center">
-      <img src=".github/qrcode.png?raw=true" alt="F-Droid repo QR code"/>
+      <img src=".github/qrcode.png?raw=true" alt="F-Droid repo QR code" width="300" height="300"/>
     </p>
 
 3. Open the link in F-Droid. It will ask you to add the repository. Everything should already be filled in correctly, so just press "OK".
