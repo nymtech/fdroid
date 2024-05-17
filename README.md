@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for Nym apps. This
 <!-- This table is auto-generated. Do not edit -->
 | Name | Description | Version |
 | --- | --- | --- |
-| [**NymVPN**](https://github.com/nymtech/nym-vpn-android) | The NymVPN client app for Android | v1.0.1 (10100) |
+| [**NymVPN**](https://github.com/nymtech/nym-vpn-android) | The NymVPN client app for Android | v1.0.2 (10200) |
 <!-- end apps table -->
 
 ### How to use
