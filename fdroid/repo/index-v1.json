@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1715960935000,
+    "timestamp": 1715991320000,
     "version": 20002,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -29,7 +29,7 @@
       "summary": "The NymVPN client app for Android",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1715960893000,
+      "lastUpdated": 1715904000000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -50,7 +50,7 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1715960893000,
+        "added": 1715904000000,
         "apkName": "NymVPN_v1.0.2.apk",
         "hash": "b6e2214a9e170a39df03b4ff2b950f2bc7b6dedf30e5ff0ac31a5794ac0fc10f",
         "hashType": "sha256",
