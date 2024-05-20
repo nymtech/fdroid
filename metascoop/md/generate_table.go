@@ -15,9 +15,9 @@ const (
 	tableEnd = "<!-- end apps table -->"
 
 	tableTmpl = `
-| Name | Description | Version |
-| --- | --- | --- |{{range .Apps}}
-| [**{{.name}}**]({{.sourceCode}}) | {{.summary}} | {{.suggestedVersionName}} ({{.suggestedVersionCode}}) |{{end}}
+| Icon | Name | Description | Version |
+| --- | --- | --- | --- |{{range .Apps}}
+| <a href="{{.sourceCode}}"><img src="fdroid/repo/icons/{{.icon}}" alt="{{.name}} icon" width="36px" height="36px"></a> | [**{{.name}}**]({{.sourceCode}}) | {{.summary}} | {{.suggestedVersionName}} ({{.suggestedVersionCode}}) |{{end}}
 ` + tableEnd
 )
 
