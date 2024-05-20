@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
-    "timestamp": 1716214595000
+    "timestamp": 1716215155000
   },
   "packages": {
     "net.nymtech.nymvpn": {
