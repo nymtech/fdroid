@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1716214166000,
+    "timestamp": 1716214595000,
     "version": 20002,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -32,6 +32,7 @@
       "lastUpdated": 1715904000000,
       "localized": {
         "en-US": {
+          "featureGraphic": "featureGraphic_KF6x0WALO6iYR6iyS3ISChBK2j0y4NnwnIf83tox1kY=.png",
           "icon": "icon_Xf0E5E5yJR2ZjG3KkwYzmwgwlGQ5ZNrxRX_tEMhP-oU=.png",
           "phoneScreenshots": [
             "1.png",
