@@ -1,0 +1,8 @@
+What's new:
+- Improved logging to file
+- Bug fixes
+- Other efficiencies and improvements
+
+
+SHA256 fingerprint:
+```3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06```

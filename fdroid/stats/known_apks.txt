@@ -7,6 +7,7 @@ NymVPN_v1.0.0.apk net.nymtech.nymvpn 2024-05-10
 NymVPN_v1.0.1.apk net.nymtech.nymvpn 2024-05-10
 NymVPN_v1.0.2.apk net.nymtech.nymvpn 2024-05-17
 NymVPN_v1.0.3.apk net.nymtech.nymvpn 2024-05-24
+NymVPN_v1.0.4.apk net.nymtech.nymvpn 2024-05-27
 icon.png 8995dfa551b21ee5cdcc109da041f357f2b570306d24afa0509fc889892f5fea 2024-05-10
 nymvpn_v0.1.2.apk net.nymtech.nymvpn 2024-05-10
 nymvpn_v0.1.3.apk net.nymtech.nymvpn 2024-05-10

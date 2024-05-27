@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1716797035000
+  },
+  "packages": {
+    "net.nymtech.nymvpn": {
+      "versions": {
+        "a4ee31dceb5b2803a8fde124bb48ea38fbc3c6d4080b8d7df6134b7399bbf944": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
