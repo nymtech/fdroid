@@ -1,5 +1,5 @@
 NymVPN:
-  git: https://github.com/nymtech/nym-vpn-android
+  git: https://github.com/nymtech/nym-vpn-client
   name: "NymVPN"
   description: |
     Download our VPN and make your online activity 100% private. Fast and anonymous.
