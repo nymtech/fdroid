@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1716797035000,
+    "timestamp": 1718623083000,
     "version": 20002,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -29,7 +29,7 @@
       "summary": "The NymVPN client app for Android",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1716796991000,
+      "lastUpdated": 1718623070000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_KF6x0WALO6iYR6iyS3ISChBK2j0y4NnwnIf83tox1kY=.png",
@@ -52,7 +52,73 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1716796991000,
+        "added": 1718623070000,
+        "apkName": "NymVPN_nym-vpn-android-v1.0.4.apk",
+        "hash": "bc6420d9f3a79c90aaabf70c3feea4a73067fcf34d398ebfc9b4fc3668c985dc",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 37170140,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ]
+        ],
+        "versionCode": 10400,
+        "versionName": "v1.0.4"
+      },
+      {
+        "added": 1716768000000,
         "apkName": "NymVPN_v1.0.4.apk",
         "hash": "a4ee31dceb5b2803a8fde124bb48ea38fbc3c6d4080b8d7df6134b7399bbf944",
         "hashType": "sha256",
