@@ -1,0 +1,17 @@
+{
+  "repo": {
+    "timestamp": 1718721675000
+  },
+  "packages": {
+    "net.nymtech.nymvpn": {
+      "metadata": {
+        "sourceCode": "https://github.com/nymtech/nym-vpn-client"
+      },
+      "versions": {
+        "8bd31798d1952a437ab8359cead5e3e29dbab92cf1f90a3aa9878317d38dd5c6": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
