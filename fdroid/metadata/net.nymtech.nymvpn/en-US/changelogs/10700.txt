@@ -1,0 +1,10 @@
+What's new:
+- In app language selector
+- More languages
+- Improved status synchronization
+- Various bug fixes and improvements
+
+SHA256 fingerprint:
+```sh
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```

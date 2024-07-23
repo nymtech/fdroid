@@ -2,8 +2,8 @@ AntiFeatures: NonFreeNet
 AuthorName: nymtech
 Categories:
     - Security
-CurrentVersion: v1.0.6
-CurrentVersionCode: 10600
+CurrentVersion: v1.0.7
+CurrentVersionCode: 10700
 Description: |
     Download our VPN and make your online activity 100% private. Fast and anonymous.
 
