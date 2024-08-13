@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
-    "timestamp": 1722354403000
+    "timestamp": 1723560780000
   },
   "packages": {
     "net.nymtech.nymvpn": {
@@ -23,7 +23,7 @@
         "categories": [
           "Security"
         ],
-        "lastUpdated": 1721692800000,
+        "lastUpdated": 1723560725000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/nymtech/nym-vpn-client",
         "featureGraphic": {
@@ -892,6 +892,71 @@
               },
               {
                 "name": "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "87203a61d0f10287efc847010c435f6cb1d7ea4469e1aa6b519c896f31ae053b": {
+          "added": 1723560725000,
+          "file": {
+            "name": "/NymVPN_nym-vpn-android-v1.0.8.apk",
+            "sha256": "87203a61d0f10287efc847010c435f6cb1d7ea4469e1aa6b519c896f31ae053b",
+            "size": 36747414
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "v1.0.8",
+            "versionCode": 10800,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f41ff96aa27e809be1a9211abd4ad72ec2b97b03addcea984ed004eb57195ba5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
               }
             ]
           },

@@ -1,0 +1,8 @@
+What's new:
+- UI improvement and fixes
+- Various enhancements and improvements
+
+SHA256 fingerprint:
+```sh
+f41ff96aa27e809be1a9211abd4ad72ec2b97b03addcea984ed004eb57195ba5
+```
