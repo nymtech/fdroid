@@ -8,7 +8,7 @@ config.yml
 fdroid/tmp
 fdroid/repo/status
 fdroid/metadata/**/phoneScreenshots
-
+.idea
 .DS_Store
 
 metascoop/metascoop
