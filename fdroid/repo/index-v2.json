@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
-    "timestamp": 1728673749000
+    "timestamp": 1730998537000
   },
   "packages": {
     "net.nymtech.nymvpn": {
@@ -23,7 +23,7 @@
         "categories": [
           "Security"
         ],
-        "lastUpdated": 1728673691000,
+        "lastUpdated": 1730998467000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/nymtech/nym-vpn-client",
         "featureGraphic": {
@@ -40,6 +40,26 @@
                 "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/1.png",
                 "sha256": "f24329a65632dc4fc5e0a1a5e982f81ed65dd1197143bfae35ff95be08fb9d44",
                 "size": 1202329
+              },
+              {
+                "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/10.png",
+                "sha256": "a40fb5834ed240a94a520a735e8bd59eb9b15c3cb6cc1442435a7ae8d8397810",
+                "size": 87895
+              },
+              {
+                "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/11.png",
+                "sha256": "a71faad1a7f6c073b77ab446c317caf5af8f3e233f044191bd78bceeabc7f7f5",
+                "size": 88082
+              },
+              {
+                "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/12.png",
+                "sha256": "c0f45ddb35a212b0de474ace113373b295906095dd9d239b8e1077bbc48bb04d",
+                "size": 84642
+              },
+              {
+                "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/13.png",
+                "sha256": "0063d3e34c7aa7bc0b5e2b71831de73938e043adbce7c949a0010bc3ddb60ce2",
+                "size": 85194
               },
               {
                 "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/2.png",
@@ -75,6 +95,11 @@
                 "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/8.png",
                 "sha256": "ca3ad0bc077a9749a6d9df3689c8b7483f8c656a303f3ac0e9aba05b2fe192a1",
                 "size": 59883
+              },
+              {
+                "name": "/net.nymtech.nymvpn/en-US/phoneScreenshots/9.png",
+                "sha256": "70b0322cdbbce6d47761efb3ca57ef06ab22865db02dd17a0471d465925b9b1a",
+                "size": 87540
               }
             ]
           }
@@ -99,8 +124,73 @@
         "preferredSigner": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06"
       },
       "versions": {
+        "4bf369cbc10419e1d39c4786c2f38e3d371e147f56822ae76535a5a1f8119200": {
+          "added": 1730998467000,
+          "file": {
+            "name": "/NymVPN_nym-vpn-android-v1.1.3.apk",
+            "sha256": "4bf369cbc10419e1d39c4786c2f38e3d371e147f56822ae76535a5a1f8119200",
+            "size": 43854594
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "v1.1.3",
+            "versionCode": 11300,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "d6a3cabed6932e816b078387d17405b30d0b87e8874783fea39ccf3cbe620f9e": {
-          "added": 1728673691000,
+          "added": 1728604800000,
           "file": {
             "name": "/NymVPN_nym-vpn-android-v1.1.2.apk",
             "sha256": "d6a3cabed6932e816b078387d17405b30d0b87e8874783fea39ccf3cbe620f9e",

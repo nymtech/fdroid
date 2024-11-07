@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1728673749000,
+    "timestamp": 1730998537000,
     "version": 20002,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -20,8 +20,8 @@
       "categories": [
         "Security"
       ],
-      "suggestedVersionName": "v1.1.2",
-      "suggestedVersionCode": "11200",
+      "suggestedVersionName": "v1.1.3",
+      "suggestedVersionCode": "11300",
       "description": "Download our VPN and make your online activity 100% private. Fast and anonymous.\n\nDownload NymVPN and make your online activity safe.\nWith our VPN app you can hide your IP address, encrypt your traffic, hide your identity online and much more.\n\nMany entities on the internet can spy on your activity and take your data.\nGovernments, big tech, data brokers, internet service providers and advertisers can all try to monitor your online activity. Recent data leakage scandals made it clear that we can't even trust traditional VPN companies.\n\nOur VPN was born to make your internet activities private and a crucial part of this is not making activity logging and tracking possible.\nNymVPN is a new type of VPN designed in a way that makes it impossible for anyone to monitor or log your online activity, even for us. Our VPN operates on a decentralized network, with no trusted parties, centralized components, or single points of failure. All functionalities of NymVPN are performed in a decentralized and distributed way, and there is no possibility of enabling centralized logging.\nOur VPN encrypts data and shields metadata from traffic analysis through a decentralized Mixnet. Simply put: there is no way for us to log your activity, therefore no one can access it.\n\nBut what exactly is a Mixnet? A Mixnet is a network of nodes that:\n1. Receive encrypted traffic\n2. Mix the traffic\n3. Redirect the traffic\nThis process is done up to 5 times (5-hops) and makes it impossible for anyone to monitor or track your online activity.\n\nThis is why you should choose our decentralized, secure, and private VPN\n\nPrivacy\nOur dVPN was built with privacy in mind. We don't store logs (no-logs policy) nor track your activity. Even if someone wanted to steal your data from us, there would be nothing to steal.\n\nCensorship resistance\nOur VPN app makes your online activity completely anonymous. We encrypt your traffic, IP address, location and everything that someone with bad intentions could monitor. You are completely safe also thanks to features like the killswitch.\n\nSpeed\nThe speed of our VPN network grows by the minute thanks to many additional nodes joining the Mixnet network. Moreover, we use modern cryptographic algorithms and innovative protocols such as Sphinx and Loopix to make your connection as fast as possible.\n\nLocation of choice\nWith NymVPN you can choose to connect from hundreds of locations around the world.\nDownload the app --> Choose the location --> Connect\n\nCrypto payments\nYou are looking for a VPN that accepts crypto payments? Here we are. We are happy to accept payments with cryptocurrencies.\n\nNo-ads\nEnjoy your VPN ads-free. Our main goal is to protect your privacy, also because of this you won't see any ads in our VPN app.\n\nLimitless usage\nEnjoy the internet as much as you want, NymVPN will never limit your traffic.\n\nOur VPN most beloved features:\n- 5-hop Mixnet: your internet traffic will be encrypted and sent to mixnodes that will mix it with other traffic packages 5 times, making it impossible for someone to track your online activity.\n- 2-hop dVPN: in this case your traffic is encrypted and sent to 2 mixnodes that will mix it. The reduced number of hops results in higher speed.\n- No centralized logs: we don't store any activity logs, this makes it impossible for anyone to have access to your internet activity through us.\n- Money-back guarantee: if you are not happy with the product we offer a money-back guarantee policy. If you are not happy with something email us at support@nymvpn.com, we are always looking to improve.\n- Split tunneling: you can easily choose which of your apps will access the internet through the VPN and which ones will access the internet directly.\n- Hide IP: our dVPN will hide all the information linked to you including your IP address.\n- Killswitch: our VPN is built to provide privacy and security, that's why in case your VPN connection drops the killswitch will block your internet access, keeping you and your data safe\n",
       "license": "GPL-3.0",
       "name": "NymVPN",
@@ -29,22 +29,27 @@
       "summary": "The NymVPN client apps for desktop and mobile",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1728673691000,
+      "lastUpdated": 1730998467000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_KF6x0WALO6iYR6iyS3ISChBK2j0y4NnwnIf83tox1kY=.png",
           "icon": "icon_RcJk7Rv3IAy8VmfVHqHUIde0L4OWEtG_A5XyxwNFwAo=.png",
           "phoneScreenshots": [
             "1.png",
+            "10.png",
+            "11.png",
+            "12.png",
+            "13.png",
             "2.png",
             "3.png",
             "4.png",
             "5.png",
             "6.png",
             "7.png",
-            "8.png"
+            "8.png",
+            "9.png"
           ],
-          "whatsNew": "What's new:\n- Fixes logs crash bug\n\nSHA256 fingerprint:\n```sh\n3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06\n```\n"
+          "whatsNew": "What's new:\n- Bug fixes\n- Stability improvements\n\nSHA256 fingerprint:\n```sh\n3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06\n```\n"
         }
       }
     }
@@ -52,7 +57,73 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1728673691000,
+        "added": 1730998467000,
+        "apkName": "NymVPN_nym-vpn-android-v1.1.3.apk",
+        "hash": "4bf369cbc10419e1d39c4786c2f38e3d371e147f56822ae76535a5a1f8119200",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 43854594,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 11300,
+        "versionName": "v1.1.3"
+      },
+      {
+        "added": 1728604800000,
         "apkName": "NymVPN_nym-vpn-android-v1.1.2.apk",
         "hash": "d6a3cabed6932e816b078387d17405b30d0b87e8874783fea39ccf3cbe620f9e",
         "hashType": "sha256",
