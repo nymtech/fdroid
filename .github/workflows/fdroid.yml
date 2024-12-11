@@ -47,8 +47,11 @@ jobs:
           pip install git+https://gitlab.com/fdroid/fdroidserver.git
 
 
-      - name: Add fdroidserver to PATH for this job
-        run: echo "$PWD/fdroidserver/env/bin" >> $GITHUB_PATH
+      - name: Add fdroid to PATH
+        run: echo "$(python -c 'import os, site; print(os.path.dirname(site.getsitepackages()[0]))')/bin" >> $GITHUB_PATH
+
+      - name: Verify fdroid installation
+        run: fdroid --version
 
 
       - name: Set up repo secrets
