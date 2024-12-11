@@ -47,6 +47,10 @@ jobs:
           pip install git+https://gitlab.com/fdroid/fdroidserver.git
 
 
+      - name: Add fdroidserver to PATH for this job
+        run: echo "$PWD/fdroidserver/env/bin" >> $GITHUB_PATH
+
+
       - name: Set up repo secrets
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
