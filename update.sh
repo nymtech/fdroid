@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# to use fdroid source install
+source fdroidserver-env/bin/activate
+
 cd metascoop
 echo "::group::Building metascoop executable"
 go build -o metascoop
