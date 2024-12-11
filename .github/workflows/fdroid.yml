@@ -39,7 +39,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install virtualenv
           python -m pip install androguard
-          python -m pip install --upgrade pip
+          python -m pip install gitpython
 
       - name: Set up virtual environment and install fdroidserver
         run: |
