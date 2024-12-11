@@ -1,12 +1,6 @@
 # Install instructions for NymVPN via F-Droid private repo
 This repository hosts an [F-Droid](https://f-droid.org/) private repo for Nym apps. This enables users to install and update Nym beta apps. As of December 2024, Nym [has applied](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/17397) for inclusion in the F-Droid main repository. This private repo will remain active for beta and preview apps.
 
-
-### ⚠️ Warning (December 2024) ⚠️
-
-As of December 11, 2024, a bug prevents updates to our Android app on F-Droid, leaving it stuck on version 1.1.3. To get the latest version (1.1.5), please download the APK from our [Download page](https://nymvpn.com/en/download/android).
-
-
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
