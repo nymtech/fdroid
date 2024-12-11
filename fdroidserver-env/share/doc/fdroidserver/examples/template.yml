@@ -1,0 +1,21 @@
+AuthorName: .
+WebSite: ''
+Bitcoin: null
+Litecoin: null
+Donate: null
+
+License: Unknown
+Categories:
+  - Internet
+
+IssueTracker: ''
+SourceCode: ''
+Changelog: ''
+
+Name: .
+Summary: .
+Description: |
+  .
+
+ArchivePolicy: 2 versions
+RequiresRoot: false

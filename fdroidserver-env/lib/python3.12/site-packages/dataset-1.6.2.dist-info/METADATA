@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: dataset
+Version: 1.6.2
+Summary: Toolkit for Python-based database access.
+Home-page: http://github.com/pudo/dataset
+Author: Friedrich Lindenberg, Gregor Aisch, Stefan Wehrmeyer
+Author-email: friedrich.lindenberg@gmail.com
+License: MIT
+Keywords: sql sqlalchemy etl loading utility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: sqlalchemy (<2.0.0,>=1.3.2)
+Requires-Dist: alembic (>=0.6.2)
+Requires-Dist: banal (>=1.0.1)
+Provides-Extra: dev
+Requires-Dist: pip ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: psycopg2-binary ; extra == 'dev'
+Requires-Dist: PyMySQL ; extra == 'dev'
+Requires-Dist: cryptography ; extra == 'dev'
+
+dataset: databases for lazy people
+==================================
+
+![build](https://github.com/pudo/dataset/workflows/build/badge.svg)
+
+In short, **dataset** makes reading and writing data in databases as simple as reading and writing JSON files.
+
+[Read the docs](https://dataset.readthedocs.io/)
+
+To install dataset, fetch it with ``pip``:
+
+```bash
+$ pip install dataset
+```
+
+**Note:** as of version 1.0, **dataset** is split into two packages, with the
+data export features now extracted into a stand-alone package, **datafreeze**.
+See the relevant repository [here](https://github.com/pudo/datafreeze).

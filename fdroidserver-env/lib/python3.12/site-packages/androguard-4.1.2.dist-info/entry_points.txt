@@ -1,0 +1,3 @@
+[console_scripts]
+androguard=androguard.cli.cli:entry_point
+

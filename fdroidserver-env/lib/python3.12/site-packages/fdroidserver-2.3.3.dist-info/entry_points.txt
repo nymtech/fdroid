@@ -1,0 +1,2 @@
+[console_scripts]
+fdroid = fdroidserver.__main__:main
