@@ -51,7 +51,9 @@ jobs:
         run: echo "$(python -c 'import os, site; print(os.path.dirname(site.getsitepackages()[0]))')/bin" >> $GITHUB_PATH
 
       - name: Verify fdroid installation
-        run: fdroid --version
+        run: |
+          source fdroidserver-env/bin/activate
+          fdroid --version
 
 
       - name: Set up repo secrets
