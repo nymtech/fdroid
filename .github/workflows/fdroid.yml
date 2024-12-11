@@ -46,15 +46,10 @@ jobs:
           source fdroidserver-env/bin/activate
           pip install git+https://gitlab.com/fdroid/fdroidserver.git
 
-
-      - name: Add fdroid to PATH
-        run: echo "$(python -c 'import os, site; print(os.path.dirname(site.getsitepackages()[0]))')/bin" >> $GITHUB_PATH
-
       - name: Verify fdroid installation
         run: |
           source fdroidserver-env/bin/activate
           fdroid --version
-
 
       - name: Set up repo secrets
         run: |
