@@ -1,5 +1,11 @@
-# fdroid
-This repository hosts an [F-Droid](https://f-droid.org/) repo for Nym apps. This allows users to install and update Nym apps very easily via.
+# Install instructions for NymVPN via F-Droid private repo
+This repository hosts an [F-Droid](https://f-droid.org/) private repo for Nym apps. This enables users to install and update Nym beta apps. As of December 2024, Nym [has applied](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/17397) for inclusion in the F-Droid main repository. This private repo will remain active for beta and preview apps.
+
+
+### ⚠️ Warning (December 2024) ⚠️
+
+As of December 11, 2024, a bug prevents updates to our Android app on F-Droid, leaving it stuck on version 1.1.3. To get the latest version (1.1.5), please download the APK from our [Download page](https://nymvpn.com/en/download/android).
+
 
 ### Apps
 
@@ -9,7 +15,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for Nym apps. This
 | <a href="https://github.com/nymtech/nym-vpn-client"><img src="fdroid/repo/net.nymtech.nymvpn/en-US/icon.png" alt="NymVPN icon" width="36px" height="36px"></a> | [**NymVPN**](https://github.com/nymtech/nym-vpn-client) | The NymVPN client apps for desktop and mobile | v1.1.3 (11300) |
 <!-- end apps table -->
 
-### How to use
+### How to install Nym apps
 1. First, [install the F-Droid app](https://f-droid.org/). It's an alternative app store for Android.
 2. In the app, navigate to Settings > Repositories and click the "+" floating action button.
 3. To add the repository, click "SCAN QR CODE" and scan the QR code below or add the repository manually with the following URL:
