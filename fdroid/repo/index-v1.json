@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734071126000,
+    "timestamp": 1734906361000,
     "version": 20002,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -29,7 +29,7 @@
       "summary": "The NymVPN client apps for desktop and mobile",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1734071036000,
+      "lastUpdated": 1734906294000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_KF6x0WALO6iYR6iyS3ISChBK2j0y4NnwnIf83tox1kY=.png",
@@ -935,7 +935,7 @@
         "versionName": "v1.0.2"
       },
       {
-        "added": 1734071036000,
+        "added": 1734906294000,
         "apkName": "NymVPN_v1.0.1.apk",
         "hash": "57726f45f65ad1474e0dd9e27f3c6ff67292c0ea74e1f217d5db56d5edb31773",
         "hashType": "sha256",
@@ -1061,7 +1061,7 @@
         "versionName": "v1.0.1"
       },
       {
-        "added": 1734071035000,
+        "added": 1734906293000,
         "apkName": "NymVPN_v1.0.0.apk",
         "hash": "994c33a0a2b2b4436f074150f92dfb148431a0e04253d02b333a198f919fbff5",
         "hashType": "sha256",
@@ -1187,7 +1187,7 @@
         "versionName": "v1.0.0"
       },
       {
-        "added": 1734071035000,
+        "added": 1734906292000,
         "apkName": "NymVPN_v0.1.5.apk",
         "hash": "87479613d9b6de0f402fb3d4c5a20bee9fd3da69a212fc72224e6c5976d09e2d",
         "hashType": "sha256",
@@ -1297,7 +1297,7 @@
         "versionName": "v0.1.5"
       },
       {
-        "added": 1734071034000,
+        "added": 1734906292000,
         "apkName": "NymVPN_v0.1.4.apk",
         "hash": "3693607689eb3ff408509adc37daab1121f4e8979b212d53a5c3b70eeb944eff",
         "hashType": "sha256",
@@ -1407,7 +1407,7 @@
         "versionName": "v0.1.4"
       },
       {
-        "added": 1734071033000,
+        "added": 1734906291000,
         "apkName": "NymVPN_v0.1.3.apk",
         "hash": "a7743dbb3cbe64065cce836240509cd1af534194c07c5f87c86fc41f7f0a9a5e",
         "hashType": "sha256",
@@ -1517,7 +1517,7 @@
         "versionName": "v0.1.3"
       },
       {
-        "added": 1734071033000,
+        "added": 1734906291000,
         "apkName": "NymVPN_v0.1.2.apk",
         "hash": "437949b1c8cdf8a38e0fcce162ad8ec08f57115415f02935591920497b433302",
         "hashType": "sha256",
