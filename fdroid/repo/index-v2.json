@@ -29,32 +29,6 @@
     }
   },
   "packages": {
-    "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de": {
-      "metadata": {
-        "added": 1733926597000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1733926597000,
-        "name": {
-          "en-US": "categories"
-        }
-      },
-      "versions": {
-        "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de": {
-          "added": 1733926597000,
-          "file": {
-            "name": "/categories.txt",
-            "sha256": "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de",
-            "size": 16
-          },
-          "manifest": {
-            "versionName": "cc47b0e",
-            "versionCode": 0
-          }
-        }
-      }
-    },
     "net.nymtech.nymvpn": {
       "metadata": {
         "added": 1715299200000,

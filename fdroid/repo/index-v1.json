@@ -13,17 +13,6 @@
   },
   "apps": [
     {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "categories",
-      "added": 1733926597000,
-      "packageName": "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de",
-      "lastUpdated": 1733926597000
-    },
-    {
       "antiFeatures": [
         "NonFreeNet"
       ],
@@ -66,17 +55,6 @@
     }
   ],
   "packages": {
-    "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de": [
-      {
-        "added": 1733926597000,
-        "apkName": "categories.txt",
-        "hash": "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de",
-        "hashType": "sha256",
-        "packageName": "cc47b0ee75e4f9bed164b5503a87417bd84c790b704098fcd11482535b80e2de",
-        "size": 16,
-        "versionName": "cc47b0e"
-      }
-    ],
     "net.nymtech.nymvpn": [
       {
         "added": 1734070667000,
