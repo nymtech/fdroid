@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
-    "timestamp": 1735358849000,
+    "timestamp": 1735924111000,
     "categories": {
       "Security": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Security"
         ],
-        "lastUpdated": 1735358781000,
+        "lastUpdated": 1735924042000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/nymtech/nym-vpn-client",
         "featureGraphic": {
