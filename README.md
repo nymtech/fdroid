@@ -2,6 +2,7 @@
 The NymVPN app is available for installation via [F-Droid](https://f-droid.org/), an alternative app store for Android. You have two options:
 
 A. Access the latest stable apps via the main F-Droid repo (recommended)
+
 B. Get early access to beta and preview apps via our private F-Droid repo (for advanced users)
 
 
