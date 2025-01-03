@@ -1,5 +1,8 @@
+# Install instructions for NymVPN via the F-Droid main repository
+Since January 2025, NymVPN has been available on the F-Droid main repo. Search for “NymVPN” on F-Droid, or visit [https://f-droid.org/en/packages/net.nymtech.nymvpn/](https://f-droid.org/en/packages/net.nymtech.nymvpn/) to download the latest stable version.
+
 # Install instructions for NymVPN via F-Droid private repo
-This repository hosts an [F-Droid](https://f-droid.org/) private repo for Nym apps. This enables users to install and update Nym beta apps. As of December 2024, Nym [has applied](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/17397) for inclusion in the F-Droid main repository. This private repo will remain active for beta and preview apps.
+This private [F-Droid](https://f-droid.org/) repo hosts beta and preview versions of NymVPN. Follow the instructions below to set up, configure, and use this repo on your device.
 
 ### Apps
 
