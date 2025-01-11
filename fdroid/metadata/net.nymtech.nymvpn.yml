@@ -1,12 +1,13 @@
 AntiFeatures: NonFreeNet
 AuthorName: nymtech
 Categories:
+    - Connectivity
+    - Internet
     - Security
+    - System
 CurrentVersion: v1.1.8
 CurrentVersionCode: 11800
 Description: |
-    Download our VPN and make your online activity 100% private. Fast and anonymous.
-
     Download NymVPN and make your online activity safe.
     With our VPN app you can hide your IP address, encrypt your traffic, hide your identity online and much more.
 
