@@ -1,9 +1,9 @@
 NymVPN:
   git: https://github.com/nymtech/nym-vpn-client
   name: "NymVPN"
+  WebSite: https://nym.com
+  IssueTracker: https://github.com/nymtech/nym-vpn-client/issues
   description: |
-    Download our VPN and make your online activity 100% private. Fast and anonymous.
-
     Download NymVPN and make your online activity safe.
     With our VPN app you can hide your IP address, encrypt your traffic, hide your identity online and much more.
 
@@ -52,11 +52,14 @@ NymVPN:
     - Split tunneling: you can easily choose which of your apps will access the internet through the VPN and which ones will access the internet directly.
     - Hide IP: our dVPN will hide all the information linked to you including your IP address.
     - Killswitch: our VPN is built to provide privacy and security, that's why in case your VPN connection drops the killswitch will block your internet access, keeping you and your data safe
-
   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
   # you can use any name here, but you should look at the existing categories first
   categories: 
+    - Connectivity
+    - Internet
     - Security
+    - System
+
 
   anti_features:
     - NonFreeNet
