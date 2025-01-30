@@ -1,0 +1,13 @@
+What's new:
+- Offline detection
+- Bug fixes
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
