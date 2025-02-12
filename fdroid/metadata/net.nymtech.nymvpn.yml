@@ -5,8 +5,8 @@ Categories:
     - Internet
     - Security
     - System
-CurrentVersion: v1.1.10
-CurrentVersionCode: 11910
+CurrentVersion: v1.2.0
+CurrentVersionCode: 12000
 Description: |
     Download NymVPN and make your online activity safe.
     With our VPN app you can hide your IP address, encrypt your traffic, hide your identity online and much more.
@@ -60,5 +60,5 @@ IssueTracker: ""
 License: GPL-3.0
 Name: NymVPN
 SourceCode: https://github.com/nymtech/nym-vpn-client
-Summary: The NymVPN client apps for desktop and mobile
+Summary: NymVPN client apps for desktop and mobile
 WebSite: ""
