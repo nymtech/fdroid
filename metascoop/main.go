@@ -15,12 +15,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/go-github/v39/github"
-	"golang.org/x/oauth2"
 	"metascoop/apps"
 	"metascoop/file"
 	"metascoop/git"
 	"metascoop/md"
+
+	"github.com/google/go-github/v39/github"
+	"golang.org/x/oauth2"
 )
 
 func main() {
@@ -300,11 +301,10 @@ func main() {
 				log.Printf("Wrote release notes to %q", destFilePath)
 			}
 
-			log.Printf("Cloning git repository to search for screenshots")
-
+			log.Printf("Cloning git repository to search for screenshots: %q", apkInfo.GitURL)
 			gitRepoPath, err := git.CloneRepo(apkInfo.GitURL)
 			if err != nil {
-				log.Printf("Cloning git repo from %q: %s", apkInfo.GitURL, err.Error())
+				log.Printf("Failed to clone repo: %s", err.Error())
 				return nil
 			}
 			defer os.RemoveAll(gitRepoPath)
