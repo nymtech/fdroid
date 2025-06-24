@@ -22,16 +22,16 @@ jobs:
         run: |
           sudo apt install git-restore-mtime 
           git restore-mtime
+      
       - name: Install F-Droid server software
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         # sudo apt-get install fdroidserver
-          
-      - name: Istall fdroidserver
-        run: |
-          pip install git+https://gitlab.com/fdroid/fdroidserver.git
-          fdroid --version
+         sudo apt-get install fdroidserver
+         fdroid --version
+
+      - name: Update androguard to the latest
+        run: sudo pip install androguard
           
       - name: Set up repo secrets
         run: |
