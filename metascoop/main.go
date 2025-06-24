@@ -303,11 +303,16 @@ func main() {
 
 			log.Printf("Cloning git repository to search for screenshots: %q", apkInfo.GitURL)
 			gitRepoPath, err := git.CloneRepo(apkInfo.GitURL)
+			defer func() {
+				if gitRepoPath != "" {
+					defer os.RemoveAll(gitRepoPath)
+				}
+			}()
+
 			if err != nil {
 				log.Printf("Failed to clone repo: %s", err.Error())
 				return nil
 			}
-			defer os.RemoveAll(gitRepoPath)
 
 			metadata, err := apps.FindMetadata(gitRepoPath)
 			if err != nil {
