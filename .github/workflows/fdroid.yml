@@ -15,28 +15,28 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install system dependencies
+        run: |
+          sudo add-apt-repository ppa:fdroid/fdroidserver
+          sudo apt update
+          sudo apt install fdroidserver git-restore-mtime
+          fdroid --version
+
       - name: Create basic directory structure
         run: mkdir -p fdroid/repo
 
       - name: Restore correct mtime
-        run: |
-          sudo apt install git-restore-mtime 
-          git restore-mtime
-      - name: Install F-Droid server software
-        run: |
-         sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo apt-get update
-         # sudo apt-get install fdroidserver
-          
-      - name: Istall fdroidserver
-        run: |
-          pip install git+https://gitlab.com/fdroid/fdroidserver.git
-          fdroid --version
-          
+        run: git restore-mtime
+
       - name: Set up repo secrets
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+
+      - name: Set git author
+        run: |
+          git config --global user.email "fdroid-bot@nym.com"
+          git config --global user.name "nym-fdroid-bot"
           
       - uses: actions/setup-go@v2
         name: Set up Go
