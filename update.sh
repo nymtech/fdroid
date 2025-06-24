@@ -14,22 +14,15 @@ echo "Scoop had an exit code of $EXIT_CODE"
 set -e
 
 if [ $EXIT_CODE -eq 2 ]; then
-    # Exit code 2 means that there were no significant changes
-    echo "This means that there were no significant changes"
+    echo "No significant changes"
     exit 0
 elif [ $EXIT_CODE -eq 0 ]; then
-    # Exit code 0 means that we can commit everything & push
-
-    echo "This means that we now have changes we should push"
-
-    git config --global user.name 'github-actions'
-    git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+    echo "Commit and push changes"
 
     git add .
-    git commit -m"Automated update"
+    git commit -m "Automated update" --author "github-actions <fdroid-bot@nym.com>"
     git push
 else 
-    echo "This is an unexpected error"
-
+    echo "Unexpected error: $EXIT_CODE"
     exit $EXIT_CODE
 fi
