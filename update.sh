@@ -20,7 +20,7 @@ elif [ $EXIT_CODE -eq 0 ]; then
     echo "Commit and push changes"
 
     git add .
-    git commit -m "Automated update" --author "github-actions <fdroid-bot@nym.com>"
+    git commit -m "Automated update"
     git push
 else 
     echo "Unexpected error: $EXIT_CODE"
