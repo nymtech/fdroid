@@ -1,0 +1,17 @@
+What's new:
+- Added support for themed icons
+- Connecting status now shows more detailed info
+- Server name is displayed below the country on the Main Screen
+- Fixed UI updates after logout
+- Server details screen added
+- Anti-censorship updates
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
