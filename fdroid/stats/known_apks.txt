@@ -1,4 +1,5 @@
 .DS_Store 7b6459f27959779c96425d35dc33d6401c40a8cf487f7e8e6cccaba987a49f10 2024-05-10
+NymVPN_nym-vpn-android-nightly.apk net.nymtech.nymvpn 2025-11-19
 NymVPN_nym-vpn-android-v1.0.4.apk net.nymtech.nymvpn 2024-06-17
 NymVPN_nym-vpn-android-v1.0.5.apk net.nymtech.nymvpn 2024-06-18
 NymVPN_nym-vpn-android-v1.0.6.apk net.nymtech.nymvpn 2024-07-02
