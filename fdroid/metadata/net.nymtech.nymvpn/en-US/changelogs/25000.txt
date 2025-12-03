@@ -1,0 +1,15 @@
+What's new:
+- Added node details to quick settings and a new Account screen
+- Introduced bi-mode split tunneling on Android
+- Updated Settings, Privacy, Censorship, and navigation UI
+- Improved connection stability and error handling
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
