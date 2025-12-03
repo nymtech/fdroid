@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1764770390000,
+    "timestamp": 1764778971000,
     "version": 20001,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -32,7 +32,7 @@
       "summary": "Cross-platform open source VPN client built in Rust, with mixnet anonymity an...",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1764770343000,
+      "lastUpdated": 1764778923000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_23JgQZqINpGMGHBMz3E_tgun5m9jXSsGjoSdUX2OhdU=.png",
@@ -68,7 +68,7 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1764770343000,
+        "added": 1764720000000,
         "apkName": "NymVPN_nym-vpn-android-v2.5.0.apk",
         "hash": "7698241062d0611437422ac5ba89f6c8a5d033a03f6489eb44232b6a76793e29",
         "hashType": "sha256",
@@ -86,6 +86,95 @@
         "sig": "7d97ad88bedfad465fe3563c1dd935c1",
         "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
         "size": 92211705,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 25000,
+        "versionName": "v2.5.0"
+      },
+      {
+        "added": 1764778923000,
+        "apkName": "NymVPN_nym-vpn-android-v2.5.1.apk",
+        "hash": "589840f28a57b215e6bd3ab574870e83af527595013a07411deb6bb8464a1469",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 89065977,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
