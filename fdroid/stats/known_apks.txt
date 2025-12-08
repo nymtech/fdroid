@@ -37,6 +37,7 @@ NymVPN_nym-vpn-android-v2.4.0.apk net.nymtech.nymvpn 2025-11-18
 NymVPN_nym-vpn-android-v2.5.0.apk net.nymtech.nymvpn 2025-12-03
 NymVPN_nym-vpn-android-v2.5.1.apk net.nymtech.nymvpn 2025-12-03
 NymVPN_nym-vpn-android-v2.5.2.apk net.nymtech.nymvpn 2025-12-03
+NymVPN_nym-vpn-android-v2.5.3.apk net.nymtech.nymvpn 2025-12-08
 NymVPN_nym-vpn_v1.1.0-amneziawg.apk net.nymtech.nymvpn.prerelease 2025-06-24
 NymVPN_v0.1.2.apk net.nymtech.nymvpn 2024-05-10
 NymVPN_v0.1.3.apk net.nymtech.nymvpn 2024-05-10
