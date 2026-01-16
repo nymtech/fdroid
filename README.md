@@ -17,7 +17,7 @@ In the F-Droid app, search for “NymVPN” and follow the app install instructi
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/nymtech/nym-vpn-client"><img src="fdroid/repo/net.nymtech.nymvpn/en-US/icon.png" alt="NymVPN icon" width="36px" height="36px"></a> | [**NymVPN**](https://github.com/nymtech/nym-vpn-client) | Cross-platform open source VPN client built in Rust, with mixnet anonymity an... | v2.6.0 (26000) |
+| <a href="https://github.com/nymtech/nym-vpn-client"><img src="fdroid/repo/net.nymtech.nymvpn/en-US/icon.png" alt="NymVPN icon" width="36px" height="36px"></a> | [**NymVPN**](https://github.com/nymtech/nym-vpn-client) | Cross-platform open source VPN client built in Rust, with mixnet anonymity an... | v2.7.0 (27000) |
 <!-- end apps table -->
 
 ### How to install Nym apps
