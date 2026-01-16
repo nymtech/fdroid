@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1768575981000,
+    "timestamp": 1768577032000,
     "version": 20001,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -32,7 +32,7 @@
       "summary": "Cross-platform open source VPN client built in Rust, with mixnet anonymity an...",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1768575743000,
+      "lastUpdated": 1768521600000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_23JgQZqINpGMGHBMz3E_tgun5m9jXSsGjoSdUX2OhdU=.png",
@@ -60,7 +60,7 @@
             "8.png",
             "9.png"
           ],
-          "whatsNew": "What\u2019s new:\n- Added a new onboarding flow for first-time users\n- Introduced a technical opt-in screen after login or purchase\n- Added locale support for high/low copy on the Details screen\nChanges:\n- Switched to passphrase-based authentication (replacing mnemonic and access code)\n- Standardized terminology by replacing \u201cgateway\u201d with \u201cserver\u201d\n- Improved connection reliability with smarter reconnect logic (LAN bypass, split tunneling, Custom DNS)\n- Updated censorship handling logic for more consi"
+          "whatsNew": "What\u2019s new\n- New onboarding flow for first-time users\n- Technical opt-in screen shown after login or purchase\n- Locale support for high/low copy on the Details screen\nChanges\n- Switched to passphrase-based authentication\n- Replaced \u201cgateway\u201d with \u201cserver\u201d across the app\n- Improved connection reliability (smarter reconnect, LAN bypass, split tunneling, Custom DNS)\n- More consistent censorship-handling logic\n\nSHA-256 fingerprint for the 4096-bit signing certificate:\n```sh\n3c98a016aa4f14a3ba185c764"
         }
       }
     }
@@ -68,7 +68,7 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1768575743000,
+        "added": 1768521600000,
         "apkName": "NymVPN_nym-vpn-android-v2.7.0.apk",
         "hash": "248b1984a9bbf0848f9bfc310b02b2b9f24eb39597208ff52fbe0d4e885262a1",
         "hashType": "sha256",
