@@ -1,0 +1,18 @@
+What’s new
+- New logging controls: Enable Logs and Debug Verbose toggles
+- Added authentication check for shortcut actions
+- Updated logs export format (structured folders and grouped logs)
+- Improved NavBar action handling
+- Reduced unnecessary log noise
+- Fixed Auto Start handling
+- Minor UI improvements and fixes
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
