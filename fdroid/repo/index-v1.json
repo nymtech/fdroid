@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1770038308000,
+    "timestamp": 1771404214000,
     "version": 20001,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -32,7 +32,7 @@
       "summary": "Cross-platform open source VPN client built in Rust, with mixnet anonymity an...",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1770038070000,
+      "lastUpdated": 1769990400000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_23JgQZqINpGMGHBMz3E_tgun5m9jXSsGjoSdUX2OhdU=.png",
@@ -68,7 +68,7 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1770038070000,
+        "added": 1769990400000,
         "apkName": "NymVPN_nym-vpn-android-v2.8.0.apk",
         "hash": "9983b65b81a84cd0e142f04f260b9a02f54ab767b3a638c67ec2d3fe01c9cc5e",
         "hashType": "sha256",
