@@ -1,6 +1,6 @@
 name: Generate F-Droid repo
 
-on: 
+on:
   repository_dispatch:
     types: [fdroid-update]
   push:
@@ -10,18 +10,17 @@ on:
 jobs:
   apps:
     name: "Generate repo from apps listing"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Install system dependencies
         run: |
-          sudo add-apt-repository ppa:fdroid/fdroidserver
           sudo apt update
-          sudo apt install fdroidserver=2.1-1 git-restore-mtime
+          sudo apt install fdroidserver git-restore-mtime
           fdroid --version
 
-      - name: Checkout repository 
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
 
       - name: Create basic directory structure
         run: mkdir -p fdroid/repo
@@ -38,7 +37,7 @@ jobs:
         run: |
           git config --global user.email "fdroid-bot@nym.com"
           git config --global user.name "nym-fdroid-bot"
-          
+
       - uses: actions/setup-go@v2
         name: Set up Go
 
