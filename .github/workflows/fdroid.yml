@@ -10,13 +10,14 @@ on:
 jobs:
   apps:
     name: "Generate repo from apps listing"
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Install system dependencies
         run: |
-          sudo apt update
-          sudo apt install fdroidserver git-restore-mtime
+          #sudo apt update
+          #sudo apt install fdroidserver git-restore-mtime
+          brew install fdroidserver git-tools
           fdroid --version
 
       - name: Checkout repository
@@ -30,8 +31,8 @@ jobs:
 
       - name: Set up repo secrets
         run: |
-          echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
-          echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+          echo "${{ secrets.KEYSTORE_P12 }}" | base64 -D - > fdroid/keystore.p12
+          echo "${{ secrets.CONFIG_YML }}" | base64 -D - > fdroid/config.yml
 
       - name: Set git author
         run: |
