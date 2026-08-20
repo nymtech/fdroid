@@ -17,35 +17,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install fdroidserver git-restore-mtime
-          #brew install fdroidserver
-          #brew install git-tools
           fdroid --version
-
-      - name: Setup NDK
-        uses: nttld/setup-ndk@v1
-        id: setup-ndk
-        timeout-minutes: 10
-        with:
-          ndk-version: r28c
-          add-to-path: false
-
-      - name: Verify NDK Setup
-        run: |
-          echo "NDK Path: ${{ steps.setup-ndk.outputs.ndk-path }}"
-          if [ ! -d "${{ steps.setup-ndk.outputs.ndk-path }}" ]; then
-            echo "Error: NDK directory not found at ${{ steps.setup-ndk.outputs.ndk-path }}"
-            exit 1
-          fi
-          echo "NDK setup successful"
-          ls -la "${{ steps.setup-ndk.outputs.ndk-path }}"
-
-      - name: Set env
-        shell: bash
-        env:
-          NIGHTLY_TIMESTAMP: ${{ inputs.nightly_timestamp }}
-        run: |
-          echo "ANDROID_NDK_HOME=${{ steps.setup-ndk.outputs.ndk-path }}" >> $GITHUB_ENV
-          echo "NDK_TOOLCHAIN_DIR=${{ steps.setup-ndk.outputs.ndk-path }}/toolchains/llvm/prebuilt/linux-x86_64/bin" >> $GITHUB_ENV
 
       - name: Checkout repository
         uses: actions/checkout@v7.0.1
