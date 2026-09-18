@@ -1,0 +1,33 @@
+Nym VPN v2026.12.5 application binaries. This release is for F-Droid only
+
+## 🚀 What's New
+### 🤖 Android
+
+#### Fixed
+
+- Fix F-droid reproducible builds
+
+## 💾 Downloads & Assets
+
+### 🤖 Android
+
+- `nym-vpn-fdroid-2026.12.5-release.apk`: Android App (F-Droid Build)
+
+<details>
+<summary>How to verify the build fingerprint?</summary>
+
+#### Signing Certificate SHA-256 Fingerprint (4096-bit):
+
+```text
+3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
+```
+
+#### Verification Steps:
+
+To verify the build fingerprint on your system, run:
+```sh
+apksigner verify --print-certs "nym-vpn-fdroid-2026.12.5-release.apk" | grep SHA-256
+```
+
+</details>
+

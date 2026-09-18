@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="Nym's F-Droid Repo" pubkey="30820506308202eea003020102020900c7d1dc01e5b76b2f300d06092a864886f70d01010b050030303110300e060355040b1307462d44726f6964311c301a060355040313137a616e65736d616f6f6b6d3370726f2e6c616e3020170d3234303531303031343632335a180f32303531303932363031343632335a30303110300e060355040b1307462d44726f6964311c301a060355040313137a616e65736d616f6f6b6d3370726f2e6c616e30820222300d06092a864886f70d01010105000382020f003082020a0282020100d20f114fb9ef51ec6273b6539bb3a0109433ad486ecd110a959dc43e86df18c4216fcb8d3d3567210851bb34985ce2615171527c2f8fb539c17cf2c4b6911ae6fe6259ed02a67d9853f7d43e789b96c5d4c781dbaf0cfa0766820c2f88371bfa73e42ab62dee92549a183fa08b4089baa3c529a64027a02821b46e34056cb73cea0e8df676aba0d9be0160c4a338a41203cf4ebb8ae16ad88fd1b3d0580124e88bb55740b734780bc8ecdf5c79010a066095bf1c47b61a7b211f942b1e871abba5a0d77a285af758f7e7210bda10f0b7d795cbc3fc9ab6d2ee73748263f7a1cac9b6616cbd8f4ddba424e498b095c7f2975f1e6e630176fa19191ec9f4c6ac29b84804924307bf4a848167b4b81c558cf9107d566d1a6b78d149c5c1fb1f91cd354ab43b283c6fd9e51667cfd3b79164cc9cea49c5ce5c227a67c0f40c92dcd6b903198ce834464f0908ee0519c73c510a64414854321eeb76e0c7a787c6b3c3532d1e05a49a31bde4ac20d88ce835a2c0b31b81da12405a6b099d1595708c0b321649cdc956e74f655036274bd949db104eba165aa3143bc5f89f7c9f564119bd20d31c1f0ffe559bac655f7cb8efc65bafd078039943d437bbd485054039f95a7617762f47d2c81daaab327e24596081120bc3fd0dfc32c73e060bbc7c126094cdf4b69198459c6cbd11bc76f5f5a81bf21822f0db18f2f88ff4f0e6017de90203010001a321301f301d0603551d0e041604147f90dc4c8bed31167640883cee28f97dbad86215300d06092a864886f70d01010b050003820201001d6218babbb058c93aea0a31eda0837bfa6e12dca02b864ad9916b4a4a37f8ad37b64735eda41713fb98dd7b65e40713e0f9017237496cccffe6d7f6a950b38970bab9979d329c6b26995cef80d970725de50a4d2a70e768db3d682e99662c48e9e63145b6894d51642be9549a1a9073dc068c007c2ca5c79a4e3f5da4786216c798a40be04eb53c8aea5161a60b3cdba10879dc22347d7980d8e16e6e9d0b43070f91bb68f772132e7412beca84d1cd8f062f5b279b3ed698a88b213106a84d86c43c9a827a8dc36ca78ff875fe87003092f33251cdb8f346711b291a53845aa44bff79469fa0c13f89199da892273613ed0599ad694c10c9251a73dbf2d86861439ad1c63a76dc011425c22489efc8901c5f0da119079385b98c4793632a088e2e69755a67cb3af75c97e283290e12ebe8ae945e55ce9d27942f8c0a6f1686c83c8ce6cbceb933e5f21c16fbb0c0a23807ebe56810e23c1e068a7906b6c9677e4b32490b7196b45a31cfe23a2a87e6364dc033a7dee083bf3fd953b17bbd7b4f76f4696f4be0f6a4f32968eeb639f3409a13cfa9ba4b565bb88374793823716e87be63f8489d6b123fa0297512e119d83ef322c8f613e0f1a8d35136923dedb1a6ecfe1fd3518049724ca128398102aeaf919c948c2043a29d55af226790afddb2166515e2c64730715164cb1a4f04057416dd57eb0269eb3739c6724ac70b" timestamp="1772558299" url="https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo" version="20001">
+	<repo icon="icon.png" name="Nym's F-Droid Repo" pubkey="30820506308202eea003020102020900c7d1dc01e5b76b2f300d06092a864886f70d01010b050030303110300e060355040b1307462d44726f6964311c301a060355040313137a616e65736d616f6f6b6d3370726f2e6c616e3020170d3234303531303031343632335a180f32303531303932363031343632335a30303110300e060355040b1307462d44726f6964311c301a060355040313137a616e65736d616f6f6b6d3370726f2e6c616e30820222300d06092a864886f70d01010105000382020f003082020a0282020100d20f114fb9ef51ec6273b6539bb3a0109433ad486ecd110a959dc43e86df18c4216fcb8d3d3567210851bb34985ce2615171527c2f8fb539c17cf2c4b6911ae6fe6259ed02a67d9853f7d43e789b96c5d4c781dbaf0cfa0766820c2f88371bfa73e42ab62dee92549a183fa08b4089baa3c529a64027a02821b46e34056cb73cea0e8df676aba0d9be0160c4a338a41203cf4ebb8ae16ad88fd1b3d0580124e88bb55740b734780bc8ecdf5c79010a066095bf1c47b61a7b211f942b1e871abba5a0d77a285af758f7e7210bda10f0b7d795cbc3fc9ab6d2ee73748263f7a1cac9b6616cbd8f4ddba424e498b095c7f2975f1e6e630176fa19191ec9f4c6ac29b84804924307bf4a848167b4b81c558cf9107d566d1a6b78d149c5c1fb1f91cd354ab43b283c6fd9e51667cfd3b79164cc9cea49c5ce5c227a67c0f40c92dcd6b903198ce834464f0908ee0519c73c510a64414854321eeb76e0c7a787c6b3c3532d1e05a49a31bde4ac20d88ce835a2c0b31b81da12405a6b099d1595708c0b321649cdc956e74f655036274bd949db104eba165aa3143bc5f89f7c9f564119bd20d31c1f0ffe559bac655f7cb8efc65bafd078039943d437bbd485054039f95a7617762f47d2c81daaab327e24596081120bc3fd0dfc32c73e060bbc7c126094cdf4b69198459c6cbd11bc76f5f5a81bf21822f0db18f2f88ff4f0e6017de90203010001a321301f301d0603551d0e041604147f90dc4c8bed31167640883cee28f97dbad86215300d06092a864886f70d01010b050003820201001d6218babbb058c93aea0a31eda0837bfa6e12dca02b864ad9916b4a4a37f8ad37b64735eda41713fb98dd7b65e40713e0f9017237496cccffe6d7f6a950b38970bab9979d329c6b26995cef80d970725de50a4d2a70e768db3d682e99662c48e9e63145b6894d51642be9549a1a9073dc068c007c2ca5c79a4e3f5da4786216c798a40be04eb53c8aea5161a60b3cdba10879dc22347d7980d8e16e6e9d0b43070f91bb68f772132e7412beca84d1cd8f062f5b279b3ed698a88b213106a84d86c43c9a827a8dc36ca78ff875fe87003092f33251cdb8f346711b291a53845aa44bff79469fa0c13f89199da892273613ed0599ad694c10c9251a73dbf2d86861439ad1c63a76dc011425c22489efc8901c5f0da119079385b98c4793632a088e2e69755a67cb3af75c97e283290e12ebe8ae945e55ce9d27942f8c0a6f1686c83c8ce6cbceb933e5f21c16fbb0c0a23807ebe56810e23c1e068a7906b6c9677e4b32490b7196b45a31cfe23a2a87e6364dc033a7dee083bf3fd953b17bbd7b4f76f4696f4be0f6a4f32968eeb639f3409a13cfa9ba4b565bb88374793823716e87be63f8489d6b123fa0297512e119d83ef322c8f613e0f1a8d35136923dedb1a6ecfe1fd3518049724ca128398102aeaf919c948c2043a29d55af226790afddb2166515e2c64730715164cb1a4f04057416dd57eb0269eb3739c6724ac70b" timestamp="1789737753" url="https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo" version="20001">
 		<description>This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built Nym.</description>
 	</repo>
 	<application id="net.nymtech.nymvpn">
 		<id>net.nymtech.nymvpn</id>
 		<added>2024-05-10</added>
-		<lastupdated>2026-03-03</lastupdated>
+		<lastupdated>2026-09-18</lastupdated>
 		<name>NymVPN</name>
 		<summary>Cross-platform open source VPN client built in Rust, with mixnet anonymity an...</summary>
 		<desc>Download NymVPN and make your online activity safe.
@@ -65,9 +65,256 @@ Our VPN most beloved features:
 		<source>https://github.com/nymtech/nym-vpn-client</source>
 		<tracker></tracker>
 		<author>nymtech</author>
-		<marketversion>v3.0.0</marketversion>
-		<marketvercode>30000</marketvercode>
+		<marketversion>2026.12.5-release</marketversion>
+		<marketvercode>20261205</marketvercode>
 		<antifeatures>NonFreeNet</antifeatures>
+		<package>
+			<version>2026.12.5-release</version>
+			<versioncode>20261205</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.12.5.apk</apkname>
+			<hash type="sha256">9a9fe75f4eab2e7595ed96d19046800d120edc66554b75c92138e0cedc979540</hash>
+			<size>197676094</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2026.12.4-release</version>
+			<versioncode>20261204</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.12.4.apk</apkname>
+			<hash type="sha256">8c0edd8342ee9d4c5085832ea8fa2100d8fddcd8e567e0bb29b0299073732fc8</hash>
+			<size>197708858</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2026.12.3-release</version>
+			<versioncode>20261203</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.12.3.apk</apkname>
+			<hash type="sha256">edd5b24dbecd8dcf08d2295e634f5af7bf16cf682932abecb2ce7e2a17ef95c3</hash>
+			<size>196953634</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2026.12.2-release</version>
+			<versioncode>20261202</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.12.2.apk</apkname>
+			<hash type="sha256">0be61d71f2537e329200a4d1bad9e7e700e0b3d7e79fa23e61e512845212c55b</hash>
+			<size>196920870</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2026.12.1-release</version>
+			<versioncode>20261201</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.12.1.apk</apkname>
+			<hash type="sha256">41e88dcd5bfda122ae5abda93979584715234c367d926f83f04d6cd6becbe43c</hash>
+			<size>197188830</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>nym-vpn-fdroid-2026.11.3-release</version>
+			<versioncode>20261103</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.11.3.apk</apkname>
+			<hash type="sha256">cf5088f3c4f2fc7fcd99a05a37d73632130b2e35ed34d917e45c0fc958813ba7</hash>
+			<size>191663571</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>nym-vpn-fdroid-2026.11.2-release</version>
+			<versioncode>20261102</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.11.2.apk</apkname>
+			<hash type="sha256">740aa91e5a72c160775b0ab330f03731676087405bfd4fdd86aa86f0ca11802b</hash>
+			<size>146049774</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>nym-vpn-fdroid-v2026.11.1-release</version>
+			<versioncode>20261101</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.11.1.apk</apkname>
+			<hash type="sha256">b085683126993932cd8ffdba507bec3ed2da290f75dc2825d7071425b94bca6e</hash>
+			<size>146049770</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>nym-vpn-fdroid-v2026.11.0-release</version>
+			<versioncode>20261100</versioncode>
+			<apkname>NymVPN_nym-vpn-v2026.11.0.apk</apkname>
+			<hash type="sha256">e6ae6f047335d329e28209a026e649d400081813770e2820706ffb27e8c7e845</hash>
+			<size>144853793</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v2026.10.0</version>
+			<versioncode>20261000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v2026.10.0.apk</apkname>
+			<hash type="sha256">61c878957dd93eae6b6abac7996c4a7230c0a63d92640d9b7ba341f18df473c1</hash>
+			<size>142831006</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.5.0</version>
+			<versioncode>35000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.5.0.apk</apkname>
+			<hash type="sha256">d495916d3229d91f116af2b6825253c14c9ea168c4a6059ddb43413be376ad0d</hash>
+			<size>140296110</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.4.2</version>
+			<versioncode>34200</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.4.2.apk</apkname>
+			<hash type="sha256">b3ffe6efc33d4158f79b325758230a6024e85f68a673726fe3fec7af01949ee7</hash>
+			<size>259684418</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.4.1</version>
+			<versioncode>34100</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.4.1.apk</apkname>
+			<hash type="sha256">e4f1991608b907157e0cf744e3b1d00849ad84631766dc469d1d4038e8fb012c</hash>
+			<size>259602498</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.4.0</version>
+			<versioncode>34000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.4.0.apk</apkname>
+			<hash type="sha256">6065d117da6d8d35d4864f73ba79627790525e7023511eeda573a925ab916ffe</hash>
+			<size>259093642</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.3.0</version>
+			<versioncode>33000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.3.0.apk</apkname>
+			<hash type="sha256">9deed98014721a14c4f9be084d4d44addbd72c71c6a55a6ddda656cc8ac081a1</hash>
+			<size>129569831</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.2.0</version>
+			<versioncode>32000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.2.0.apk</apkname>
+			<hash type="sha256">aacabea0d3afa564fa4d7277b66a62456d2a052999592023f0106e69e7886200</hash>
+			<size>130263691</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.1.2</version>
+			<versioncode>31200</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.1.2.apk</apkname>
+			<hash type="sha256">0eb99466ba2ac46c0f747e392d9f584acb96ddf739f32abb47a3417fffc09fdc</hash>
+			<size>125933860</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.1.1</version>
+			<versioncode>31100</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.1.1.apk</apkname>
+			<hash type="sha256">3a97c1a491873b528cb52b1d92b49d1ddd70800e6e22fdc64f17b980ba598792</hash>
+			<size>125868320</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>v3.1.0</version>
+			<versioncode>31000</versioncode>
+			<apkname>NymVPN_nym-vpn-android-v3.1.0.apk</apkname>
+			<hash type="sha256">b5f506a9645f1e862ce308ae2ef189931e185844c64b6a86286bae4dfa296f97</hash>
+			<size>125868320</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-18</added>
+			<sig>7d97ad88bedfad465fe3563c1dd935c1</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SYSTEM_EXEMPTED,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.launcher.permission.UNINSTALL_SHORTCUT,net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>v3.0.0</version>
 			<versioncode>30000</versioncode>
