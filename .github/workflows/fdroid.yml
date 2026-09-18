@@ -1,6 +1,6 @@
 name: Generate F-Droid repo
 
-on: 
+on:
   repository_dispatch:
     types: [fdroid-update]
   push:
@@ -20,11 +20,21 @@ jobs:
           sudo apt install git-lfs fdroidserver=2.1-1 git-restore-mtime
           fdroid --version
 
-      - name: Checkout repository 
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          lfs: true
+          fetch-depth: 0
 
       - name: Create basic directory structure
         run: mkdir -p fdroid/repo
+
+      - name: Configure git
+        run: |
+          # fix deprecation error
+          git config --global alias.whatchanged "log --raw --no-merges"
+          git config --global user.email "fdroid-bot@nym.com"
+          git config --global user.name "nym-fdroid-bot"
 
       - name: Restore correct mtime
         run: git restore-mtime
@@ -33,13 +43,10 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+          chmod 0600 fdroid/keystore.p12
+          chmod 0600 fdroid/config.yml
 
-      - name: Set git author
-        run: |
-          git config --global user.email "fdroid-bot@nym.com"
-          git config --global user.name "nym-fdroid-bot"
-          
-      - uses: actions/setup-go@v2
+      - uses: actions/setup-go@v7
         name: Set up Go
 
       - name: Run update script

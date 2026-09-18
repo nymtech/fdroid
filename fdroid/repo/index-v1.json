@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1772558299000,
+    "timestamp": 1789737753000,
     "version": 20001,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
@@ -23,8 +23,8 @@
         "Security",
         "System"
       ],
-      "suggestedVersionName": "v3.0.0",
-      "suggestedVersionCode": "30000",
+      "suggestedVersionName": "2026.12.5-release",
+      "suggestedVersionCode": "20261205",
       "description": "Download NymVPN and make your online activity safe.\nWith our VPN app you can hide your IP address, encrypt your traffic, hide your identity online and much more.\n\nMany entities on the internet can spy on your activity and take your data.\nGovernments, big tech, data brokers, internet service providers and advertisers can all try to monitor your online activity. Recent data leakage scandals made it clear that we can't even trust traditional VPN companies.\n\nOur VPN was born to make your internet activities private and a crucial part of this is not making activity logging and tracking possible.\nNymVPN is a new type of VPN designed in a way that makes it impossible for anyone to monitor or log your online activity, even for us. Our VPN operates on a decentralized network, with no trusted parties, centralized components, or single points of failure. All functionalities of NymVPN are performed in a decentralized and distributed way, and there is no possibility of enabling centralized logging.\nOur VPN encrypts data and shields metadata from traffic analysis through a decentralized Mixnet. Simply put: there is no way for us to log your activity, therefore no one can access it.\n\nBut what exactly is a Mixnet? A Mixnet is a network of nodes that:\n1. Receive encrypted traffic\n2. Mix the traffic\n3. Redirect the traffic\nThis process is done up to 5 times (5-hops) and makes it impossible for anyone to monitor or track your online activity.\n\nThis is why you should choose our decentralized, secure, and private VPN\n\nPrivacy\nOur dVPN was built with privacy in mind. We don't store logs (no-logs policy) nor track your activity. Even if someone wanted to steal your data from us, there would be nothing to steal.\n\nCensorship resistance\nOur VPN app makes your online activity completely anonymous. We encrypt your traffic, IP address, location and everything that someone with bad intentions could monitor. You are completely safe also thanks to features like the killswitch.\n\nSpeed\nThe speed of our VPN network grows by the minute thanks to many additional nodes joining the Mixnet network. Moreover, we use modern cryptographic algorithms and innovative protocols such as Sphinx and Loopix to make your connection as fast as possible.\n\nLocation of choice\nWith NymVPN you can choose to connect from hundreds of locations around the world.\nDownload the app --> Choose the location --> Connect\n\nCrypto payments\nYou are looking for a VPN that accepts crypto payments? Here we are. We are happy to accept payments with cryptocurrencies.\n\nNo-ads\nEnjoy your VPN ads-free. Our main goal is to protect your privacy, also because of this you won't see any ads in our VPN app.\n\nLimitless usage\nEnjoy the internet as much as you want, NymVPN will never limit your traffic.\n\nOur VPN most beloved features:\n- 5-hop Mixnet: your internet traffic will be encrypted and sent to mixnodes that will mix it with other traffic packages 5 times, making it impossible for someone to track your online activity.\n- 2-hop dVPN: in this case your traffic is encrypted and sent to 2 mixnodes that will mix it. The reduced number of hops results in higher speed.\n- No centralized logs: we don't store any activity logs, this makes it impossible for anyone to have access to your internet activity through us.\n- Money-back guarantee: if you are not happy with the product we offer a money-back guarantee policy. If you are not happy with something email us at support@nymvpn.com, we are always looking to improve.\n- Split tunneling: you can easily choose which of your apps will access the internet through the VPN and which ones will access the internet directly.\n- Hide IP: our dVPN will hide all the information linked to you including your IP address.\n- Killswitch: our VPN is built to provide privacy and security, that's why in case your VPN connection drops the killswitch will block your internet access, keeping you and your data safe\n",
       "license": "GPL-3.0",
       "name": "NymVPN",
@@ -32,7 +32,7 @@
       "summary": "Cross-platform open source VPN client built in Rust, with mixnet anonymity an...",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1772558062000,
+      "lastUpdated": 1789737222000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_23JgQZqINpGMGHBMz3E_tgun5m9jXSsGjoSdUX2OhdU=.png",
@@ -40,27 +40,270 @@
           "phoneScreenshots": [
             "1.png",
             "10.png",
+            "100.png",
+            "101.png",
+            "102.png",
+            "103.png",
+            "104.png",
+            "105.png",
+            "106.png",
+            "107.png",
+            "108.png",
+            "109.png",
             "11.png",
+            "110.png",
+            "111.png",
+            "112.png",
+            "113.png",
+            "114.png",
+            "115.png",
+            "116.png",
+            "117.png",
+            "118.png",
+            "119.png",
             "12.png",
+            "120.png",
+            "121.png",
+            "122.png",
+            "123.png",
+            "124.png",
+            "125.png",
+            "126.png",
+            "127.png",
+            "128.png",
+            "129.png",
             "13.png",
+            "130.png",
+            "131.png",
+            "132.png",
+            "133.png",
+            "134.png",
+            "135.png",
+            "136.png",
+            "137.png",
+            "138.png",
+            "139.png",
             "14.png",
+            "140.png",
+            "141.png",
+            "142.png",
+            "143.png",
+            "144.png",
+            "145.png",
+            "146.png",
+            "147.png",
+            "148.png",
+            "149.png",
             "15.png",
+            "150.png",
+            "151.png",
+            "152.png",
+            "153.png",
+            "154.png",
+            "155.png",
+            "156.png",
+            "157.png",
+            "158.png",
+            "159.png",
             "16.png",
+            "160.png",
+            "161.png",
+            "162.png",
+            "163.png",
+            "164.png",
+            "165.png",
+            "166.png",
+            "167.png",
+            "168.png",
+            "169.png",
             "17.png",
+            "170.png",
+            "171.png",
+            "172.png",
+            "173.png",
+            "174.png",
+            "175.png",
+            "176.png",
+            "177.png",
+            "178.png",
+            "179.png",
             "18.png",
+            "180.png",
+            "181.png",
+            "182.png",
+            "183.png",
+            "184.png",
+            "185.png",
+            "186.png",
+            "187.png",
+            "188.png",
+            "189.png",
             "19.png",
+            "190.png",
+            "191.png",
+            "192.png",
+            "193.png",
+            "194.png",
+            "195.png",
+            "196.png",
+            "197.png",
+            "198.png",
+            "199.png",
             "2.png",
             "20.png",
+            "200.png",
+            "201.png",
+            "202.png",
+            "203.png",
+            "204.png",
+            "205.png",
+            "206.png",
+            "207.png",
+            "208.png",
+            "209.png",
+            "21.png",
+            "210.png",
+            "211.png",
+            "212.png",
+            "213.png",
+            "214.png",
+            "215.png",
+            "216.png",
+            "217.png",
+            "218.png",
+            "219.png",
+            "22.png",
+            "220.png",
+            "221.png",
+            "222.png",
+            "223.png",
+            "224.png",
+            "225.png",
+            "226.png",
+            "227.png",
+            "228.png",
+            "229.png",
             "23.png",
+            "230.png",
+            "231.png",
+            "232.png",
+            "233.png",
+            "234.png",
+            "235.png",
+            "236.png",
+            "237.png",
+            "238.png",
+            "239.png",
+            "24.png",
+            "240.png",
+            "241.png",
+            "242.png",
+            "243.png",
+            "244.png",
+            "245.png",
+            "246.png",
+            "247.png",
+            "248.png",
+            "249.png",
+            "25.png",
+            "250.png",
+            "251.png",
+            "252.png",
+            "253.png",
+            "254.png",
+            "255.png",
+            "256.png",
+            "257.png",
+            "258.png",
+            "259.png",
+            "26.png",
+            "260.png",
+            "261.png",
+            "262.png",
+            "263.png",
+            "264.png",
+            "27.png",
+            "28.png",
+            "29.png",
             "3.png",
+            "30.png",
+            "31.png",
+            "32.png",
+            "33.png",
+            "34.png",
+            "35.png",
+            "36.png",
+            "37.png",
+            "38.png",
+            "39.png",
             "4.png",
+            "40.png",
+            "41.png",
+            "42.png",
+            "43.png",
+            "44.png",
+            "45.png",
+            "46.png",
+            "47.png",
+            "48.png",
+            "49.png",
             "5.png",
+            "50.png",
+            "51.png",
+            "52.png",
+            "53.png",
+            "54.png",
+            "55.png",
+            "56.png",
+            "57.png",
+            "58.png",
+            "59.png",
             "6.png",
+            "60.png",
+            "61.png",
+            "62.png",
+            "63.png",
+            "64.png",
+            "65.png",
+            "66.png",
+            "67.png",
+            "68.png",
+            "69.png",
             "7.png",
+            "70.png",
+            "71.png",
+            "72.png",
+            "73.png",
+            "74.png",
+            "75.png",
+            "76.png",
+            "77.png",
+            "78.png",
+            "79.png",
             "8.png",
-            "9.png"
+            "80.png",
+            "81.png",
+            "82.png",
+            "83.png",
+            "84.png",
+            "85.png",
+            "86.png",
+            "87.png",
+            "88.png",
+            "89.png",
+            "9.png",
+            "90.png",
+            "91.png",
+            "92.png",
+            "93.png",
+            "94.png",
+            "95.png",
+            "96.png",
+            "97.png",
+            "98.png",
+            "99.png"
           ],
-          "whatsNew": "What's New:\n- Added subscription checks, account summaries, and social linking.\n- Masked password inputs and resolved login errors.\n- Removed logout from settings and fixed main screen error alerts.\n- Fixed device startup (boot receiver) bugs.\n\nSHA-256 fingerprint for the 4096-bit signing certificate:\n```sh\n3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06\n```\n\nTo verify fingerprint:\n```sh\napksigner verify --print-certs [path to APK file] | grep SHA-256\n```\n"
+          "whatsNew": "Nym VPN v2026.12.5 application binaries. This release is for F-Droid only\n\n## \ud83d\ude80 What's New\n### \ud83e\udd16 Android\n\n#### Fixed\n\n- Fix F-droid reproducible builds\n\n## \ud83d\udcbe Downloads & Assets\n\n### \ud83e\udd16 Android\n\n- `nym-vpn-fdroid-2026.12.5-release.apk`: Android App (F-Droid Build)\n\n<details>\n<summary>How to verify the build fingerprint?</summary>\n\n#### Signing Certificate SHA-256 Fingerprint (4096-bit):\n\n```text\n3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06\n```\n\n#### Verification Steps:\n\nTo veri"
         }
       }
     }
@@ -68,7 +311,1649 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1772558062000,
+        "added": 1789737222000,
+        "apkName": "NymVPN_nym-vpn-v2026.12.5.apk",
+        "hash": "9a9fe75f4eab2e7595ed96d19046800d120edc66554b75c92138e0cedc979540",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 197676094,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261205,
+        "versionName": "2026.12.5-release"
+      },
+      {
+        "added": 1789737220000,
+        "apkName": "NymVPN_nym-vpn-v2026.12.4.apk",
+        "hash": "8c0edd8342ee9d4c5085832ea8fa2100d8fddcd8e567e0bb29b0299073732fc8",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 197708858,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261204,
+        "versionName": "2026.12.4-release"
+      },
+      {
+        "added": 1789737217000,
+        "apkName": "NymVPN_nym-vpn-v2026.12.3.apk",
+        "hash": "edd5b24dbecd8dcf08d2295e634f5af7bf16cf682932abecb2ce7e2a17ef95c3",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 196953634,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261203,
+        "versionName": "2026.12.3-release"
+      },
+      {
+        "added": 1789737215000,
+        "apkName": "NymVPN_nym-vpn-v2026.12.2.apk",
+        "hash": "0be61d71f2537e329200a4d1bad9e7e700e0b3d7e79fa23e61e512845212c55b",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 196920870,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261202,
+        "versionName": "2026.12.2-release"
+      },
+      {
+        "added": 1789737213000,
+        "apkName": "NymVPN_nym-vpn-v2026.12.1.apk",
+        "hash": "41e88dcd5bfda122ae5abda93979584715234c367d926f83f04d6cd6becbe43c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 197188830,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261201,
+        "versionName": "2026.12.1-release"
+      },
+      {
+        "added": 1789737211000,
+        "apkName": "NymVPN_nym-vpn-v2026.11.3.apk",
+        "hash": "cf5088f3c4f2fc7fcd99a05a37d73632130b2e35ed34d917e45c0fc958813ba7",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 191663571,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261103,
+        "versionName": "nym-vpn-fdroid-2026.11.3-release"
+      },
+      {
+        "added": 1789737209000,
+        "apkName": "NymVPN_nym-vpn-v2026.11.2.apk",
+        "hash": "740aa91e5a72c160775b0ab330f03731676087405bfd4fdd86aa86f0ca11802b",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 146049774,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261102,
+        "versionName": "nym-vpn-fdroid-2026.11.2-release"
+      },
+      {
+        "added": 1789737208000,
+        "apkName": "NymVPN_nym-vpn-v2026.11.1.apk",
+        "hash": "b085683126993932cd8ffdba507bec3ed2da290f75dc2825d7071425b94bca6e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 146049770,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261101,
+        "versionName": "nym-vpn-fdroid-v2026.11.1-release"
+      },
+      {
+        "added": 1789737206000,
+        "apkName": "NymVPN_nym-vpn-v2026.11.0.apk",
+        "hash": "e6ae6f047335d329e28209a026e649d400081813770e2820706ffb27e8c7e845",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 144853793,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261100,
+        "versionName": "nym-vpn-fdroid-v2026.11.0-release"
+      },
+      {
+        "added": 1789737186000,
+        "apkName": "NymVPN_nym-vpn-android-v2026.10.0.apk",
+        "hash": "61c878957dd93eae6b6abac7996c4a7230c0a63d92640d9b7ba341f18df473c1",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 142831006,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20261000,
+        "versionName": "v2026.10.0"
+      },
+      {
+        "added": 1789737205000,
+        "apkName": "NymVPN_nym-vpn-android-v3.5.0.apk",
+        "hash": "d495916d3229d91f116af2b6825253c14c9ea168c4a6059ddb43413be376ad0d",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 140296110,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 35000,
+        "versionName": "v3.5.0"
+      },
+      {
+        "added": 1789737203000,
+        "apkName": "NymVPN_nym-vpn-android-v3.4.2.apk",
+        "hash": "b3ffe6efc33d4158f79b325758230a6024e85f68a673726fe3fec7af01949ee7",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 259684418,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 34200,
+        "versionName": "v3.4.2"
+      },
+      {
+        "added": 1789737200000,
+        "apkName": "NymVPN_nym-vpn-android-v3.4.1.apk",
+        "hash": "e4f1991608b907157e0cf744e3b1d00849ad84631766dc469d1d4038e8fb012c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 259602498,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 34100,
+        "versionName": "v3.4.1"
+      },
+      {
+        "added": 1789737198000,
+        "apkName": "NymVPN_nym-vpn-android-v3.4.0.apk",
+        "hash": "6065d117da6d8d35d4864f73ba79627790525e7023511eeda573a925ab916ffe",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 259093642,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 34000,
+        "versionName": "v3.4.0"
+      },
+      {
+        "added": 1789737195000,
+        "apkName": "NymVPN_nym-vpn-android-v3.3.0.apk",
+        "hash": "9deed98014721a14c4f9be084d4d44addbd72c71c6a55a6ddda656cc8ac081a1",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 129569831,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 33000,
+        "versionName": "v3.3.0"
+      },
+      {
+        "added": 1789737194000,
+        "apkName": "NymVPN_nym-vpn-android-v3.2.0.apk",
+        "hash": "aacabea0d3afa564fa4d7277b66a62456d2a052999592023f0106e69e7886200",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 130263691,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 32000,
+        "versionName": "v3.2.0"
+      },
+      {
+        "added": 1789737192000,
+        "apkName": "NymVPN_nym-vpn-android-v3.1.2.apk",
+        "hash": "0eb99466ba2ac46c0f747e392d9f584acb96ddf739f32abb47a3417fffc09fdc",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 125933860,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 31200,
+        "versionName": "v3.1.2"
+      },
+      {
+        "added": 1789737191000,
+        "apkName": "NymVPN_nym-vpn-android-v3.1.1.apk",
+        "hash": "3a97c1a491873b528cb52b1d92b49d1ddd70800e6e22fdc64f17b980ba598792",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 125868320,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 31100,
+        "versionName": "v3.1.1"
+      },
+      {
+        "added": 1789737189000,
+        "apkName": "NymVPN_nym-vpn-android-v3.1.0.apk",
+        "hash": "b5f506a9645f1e862ce308ae2ef189931e185844c64b6a86286bae4dfa296f97",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.nymtech.nymvpn",
+        "sig": "7d97ad88bedfad465fe3563c1dd935c1",
+        "signer": "3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06",
+        "size": 125868320,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "net.nymtech.nymvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 31000,
+        "versionName": "v3.1.0"
+      },
+      {
+        "added": 1772496000000,
         "apkName": "NymVPN_nym-vpn-android-v3.0.0.apk",
         "hash": "c881430de6f3424287b3e42f945f77754a0b7d4b4965c605c20d1efa23a24fe5",
         "hashType": "sha256",
