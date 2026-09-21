@@ -1,13 +1,13 @@
 #!/bin/bash
 
-cd metascoop
+pushd metascoop
 echo "::group::Building metascoop executable"
 go build -o metascoop
 echo "::endgroup::"
+popd
 
-./metascoop -ap=../apps.yaml -rd=../fdroid/repo -pat="$GH_ACCESS_TOKEN" $1
+./metascoop/metascoop -ap=apps.yaml -rd=fdroid/repo -pat="$GH_ACCESS_TOKEN" $1
 EXIT_CODE=$?
-cd ..
 
 echo "Scoop had an exit code of $EXIT_CODE"
 
@@ -22,7 +22,7 @@ elif [ $EXIT_CODE -eq 0 ]; then
     git add .
     git commit -m "Automated update"
     git push
-else 
+else
     echo "Unexpected error: $EXIT_CODE"
     exit $EXIT_CODE
 fi

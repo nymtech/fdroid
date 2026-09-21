@@ -10,14 +10,14 @@ type RepoMetadata struct {
 	Screenshots []string
 }
 
-var imageSuffixes = map[string]bool{
-	"png":  true,
-	"jpg":  true,
-	"jpeg": true,
-}
-
 func hasImageSuffix(path string) bool {
-	return imageSuffixes[strings.TrimPrefix(filepath.Ext(path), ".")]
+	ext := strings.ToLower(filepath.Ext(path))
+	switch ext {
+	case ".png", ".jpg", ".jpeg":
+		return true
+	default:
+		return false
+	}
 }
 
 func FindMetadata(clonedRepoPath string) (r RepoMetadata, err error) {

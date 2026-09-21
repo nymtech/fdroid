@@ -16,6 +16,7 @@ import (
 	"time"
 
 	"metascoop/apps"
+	"metascoop/dir"
 	"metascoop/file"
 	"metascoop/git"
 	"metascoop/md"
@@ -203,9 +204,6 @@ func main() {
 		log.Fatalf("reading f-droid repo index: %s\n::endgroup::\n", err.Error())
 	}
 
-	// directory paths that should be removed after updating metadata
-	var toRemovePaths []string
-
 	walkPath := filepath.Join(filepath.Dir(*repoDir), "metadata")
 	err = filepath.WalkDir(walkPath, func(path string, d fs.DirEntry, err error) error {
 		if err != nil || d.IsDir() || !strings.HasSuffix(path, ".yml") {
@@ -314,29 +312,41 @@ func main() {
 				return nil
 			}
 
-			metadata, err := apps.FindMetadata(gitRepoPath)
+			screenshotBaseDir := filepath.Join(gitRepoPath, "fastlane", "metadata", "android", "en-US", "images")
+
+			metadata, err := apps.FindMetadata(screenshotBaseDir)
 			if err != nil {
 				log.Printf("finding metadata in git repo %q: %s", gitRepoPath, err.Error())
 				return nil
 			}
 
 			log.Printf("Found %d screenshots", len(metadata.Screenshots))
+			screenshotsPath := filepath.Join(*repoDir, latestPackage.PackageName, "en-US")
 
-			screenshotsPath := filepath.Join(walkPath, latestPackage.PackageName, "en-US", "phoneScreenshots")
-
-			_ = os.RemoveAll(screenshotsPath)
-
-			var sccounter int = 1
-			for _, sc := range metadata.Screenshots {
-				var ext = filepath.Ext(sc)
-				if ext == "" {
-					log.Printf("Invalid: screenshot file extension is empty for %q", sc)
-					continue
+			screenshotDirs := dir.GetUniqueDirectories(metadata.Screenshots)
+			for _, screenshotDir := range screenshotDirs {
+				var relPath, err = filepath.Rel(screenshotBaseDir, screenshotDir)
+				if err != nil {
+					log.Printf("Failed to obtain relpath (base: %s, target: %s): %s", screenshotBaseDir, screenshotDir, err.Error())
+					return nil
 				}
+				var absPath = filepath.Join(screenshotsPath, relPath)
+				log.Printf("Remove screenshot dir: %q", absPath)
+				if err := os.RemoveAll(absPath); err != nil {
+					log.Printf("Failed to remove screenshot dir %q: %s", absPath, err.Error())
+				}
+			}
 
-				var newFilePath = filepath.Join(screenshotsPath, fmt.Sprintf("%d%s", sccounter, ext))
+			for _, sc := range metadata.Screenshots {
+				var relPath, err = filepath.Rel(screenshotBaseDir, sc)
+				if err != nil {
+					log.Printf("Failed to obtain relpath (base: %s, target: %s): %s", screenshotBaseDir, sc, err.Error())
+					return nil
+				}
+				var newFilePath = filepath.Join(screenshotsPath, relPath)
+				var newFileDir = filepath.Dir(newFilePath)
 
-				err = os.MkdirAll(filepath.Dir(newFilePath), os.ModePerm)
+				err = os.MkdirAll(newFileDir, os.ModePerm)
 				if err != nil {
 					log.Printf("Creating directory for screenshot file %q: %s", newFilePath, err.Error())
 					return nil
@@ -349,11 +359,7 @@ func main() {
 				}
 
 				log.Printf("Wrote screenshot to %s", newFilePath)
-
-				sccounter++
 			}
-
-			toRemovePaths = append(toRemovePaths, screenshotsPath)
 
 			return nil
 		}()
@@ -393,16 +399,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("reading f-droid repo index: %s\n::endgroup::\n", err.Error())
 	}
-
-	// Now we can remove all paths that were marked for doing so
-
-	for _, rmpath := range toRemovePaths {
-		err = os.RemoveAll(rmpath)
-		if err != nil {
-			log.Fatalf("removing path %q: %s\n", rmpath, err.Error())
-		}
-	}
-
 	// We can now generate the README file
 	readmePath := filepath.Join(filepath.Dir(filepath.Dir(*repoDir)), "README.md")
 	err = md.RegenerateReadme(readmePath, fdroidIndex)

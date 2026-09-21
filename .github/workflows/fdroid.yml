@@ -26,6 +26,9 @@ jobs:
           lfs: true
           fetch-depth: 0
 
+      - name: List files
+        run: ls -R .
+
       - name: Create basic directory structure
         run: mkdir -p fdroid/repo
 
@@ -53,3 +56,8 @@ jobs:
         run: bash update.sh 2>&1
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+
+      - name: Clean up sensitive files
+        if: always()
+        run: |
+          rm -f fdroid/keystore.p12 fdroid/config.yml
