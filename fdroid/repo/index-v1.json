@@ -1,10 +1,10 @@
 {
   "repo": {
-    "timestamp": 1789737753000,
+    "timestamp": 1789990539000,
     "version": 20001,
     "name": "Nym's F-Droid Repo",
     "icon": "icon.png",
-    "address": "https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo",
+    "address": "https://github.com/nymtech/fdroid/raw/refs/heads/main/fdroid/repo",
     "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built Nym."
   },
   "requests": {
@@ -32,7 +32,7 @@
       "summary": "Cross-platform open source VPN client built in Rust, with mixnet anonymity an...",
       "added": 1715299200000,
       "packageName": "net.nymtech.nymvpn",
-      "lastUpdated": 1789737222000,
+      "lastUpdated": 1789689600000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_23JgQZqINpGMGHBMz3E_tgun5m9jXSsGjoSdUX2OhdU=.png",
@@ -311,7 +311,7 @@
   "packages": {
     "net.nymtech.nymvpn": [
       {
-        "added": 1789737222000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.12.5.apk",
         "hash": "9a9fe75f4eab2e7595ed96d19046800d120edc66554b75c92138e0cedc979540",
         "hashType": "sha256",
@@ -396,7 +396,7 @@
         "versionName": "2026.12.5-release"
       },
       {
-        "added": 1789737220000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.12.4.apk",
         "hash": "8c0edd8342ee9d4c5085832ea8fa2100d8fddcd8e567e0bb29b0299073732fc8",
         "hashType": "sha256",
@@ -481,7 +481,7 @@
         "versionName": "2026.12.4-release"
       },
       {
-        "added": 1789737217000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.12.3.apk",
         "hash": "edd5b24dbecd8dcf08d2295e634f5af7bf16cf682932abecb2ce7e2a17ef95c3",
         "hashType": "sha256",
@@ -566,7 +566,7 @@
         "versionName": "2026.12.3-release"
       },
       {
-        "added": 1789737215000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.12.2.apk",
         "hash": "0be61d71f2537e329200a4d1bad9e7e700e0b3d7e79fa23e61e512845212c55b",
         "hashType": "sha256",
@@ -651,7 +651,7 @@
         "versionName": "2026.12.2-release"
       },
       {
-        "added": 1789737213000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.12.1.apk",
         "hash": "41e88dcd5bfda122ae5abda93979584715234c367d926f83f04d6cd6becbe43c",
         "hashType": "sha256",
@@ -736,7 +736,7 @@
         "versionName": "2026.12.1-release"
       },
       {
-        "added": 1789737211000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.11.3.apk",
         "hash": "cf5088f3c4f2fc7fcd99a05a37d73632130b2e35ed34d917e45c0fc958813ba7",
         "hashType": "sha256",
@@ -821,7 +821,7 @@
         "versionName": "nym-vpn-fdroid-2026.11.3-release"
       },
       {
-        "added": 1789737209000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.11.2.apk",
         "hash": "740aa91e5a72c160775b0ab330f03731676087405bfd4fdd86aa86f0ca11802b",
         "hashType": "sha256",
@@ -905,7 +905,7 @@
         "versionName": "nym-vpn-fdroid-2026.11.2-release"
       },
       {
-        "added": 1789737208000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.11.1.apk",
         "hash": "b085683126993932cd8ffdba507bec3ed2da290f75dc2825d7071425b94bca6e",
         "hashType": "sha256",
@@ -989,7 +989,7 @@
         "versionName": "nym-vpn-fdroid-v2026.11.1-release"
       },
       {
-        "added": 1789737206000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-v2026.11.0.apk",
         "hash": "e6ae6f047335d329e28209a026e649d400081813770e2820706ffb27e8c7e845",
         "hashType": "sha256",
@@ -1073,7 +1073,7 @@
         "versionName": "nym-vpn-fdroid-v2026.11.0-release"
       },
       {
-        "added": 1789737186000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v2026.10.0.apk",
         "hash": "61c878957dd93eae6b6abac7996c4a7230c0a63d92640d9b7ba341f18df473c1",
         "hashType": "sha256",
@@ -1157,7 +1157,7 @@
         "versionName": "v2026.10.0"
       },
       {
-        "added": 1789737205000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.5.0.apk",
         "hash": "d495916d3229d91f116af2b6825253c14c9ea168c4a6059ddb43413be376ad0d",
         "hashType": "sha256",
@@ -1241,7 +1241,7 @@
         "versionName": "v3.5.0"
       },
       {
-        "added": 1789737203000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.4.2.apk",
         "hash": "b3ffe6efc33d4158f79b325758230a6024e85f68a673726fe3fec7af01949ee7",
         "hashType": "sha256",
@@ -1330,7 +1330,7 @@
         "versionName": "v3.4.2"
       },
       {
-        "added": 1789737200000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.4.1.apk",
         "hash": "e4f1991608b907157e0cf744e3b1d00849ad84631766dc469d1d4038e8fb012c",
         "hashType": "sha256",
@@ -1419,7 +1419,7 @@
         "versionName": "v3.4.1"
       },
       {
-        "added": 1789737198000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.4.0.apk",
         "hash": "6065d117da6d8d35d4864f73ba79627790525e7023511eeda573a925ab916ffe",
         "hashType": "sha256",
@@ -1508,7 +1508,7 @@
         "versionName": "v3.4.0"
       },
       {
-        "added": 1789737195000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.3.0.apk",
         "hash": "9deed98014721a14c4f9be084d4d44addbd72c71c6a55a6ddda656cc8ac081a1",
         "hashType": "sha256",
@@ -1597,7 +1597,7 @@
         "versionName": "v3.3.0"
       },
       {
-        "added": 1789737194000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.2.0.apk",
         "hash": "aacabea0d3afa564fa4d7277b66a62456d2a052999592023f0106e69e7886200",
         "hashType": "sha256",
@@ -1686,7 +1686,7 @@
         "versionName": "v3.2.0"
       },
       {
-        "added": 1789737192000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.1.2.apk",
         "hash": "0eb99466ba2ac46c0f747e392d9f584acb96ddf739f32abb47a3417fffc09fdc",
         "hashType": "sha256",
@@ -1775,7 +1775,7 @@
         "versionName": "v3.1.2"
       },
       {
-        "added": 1789737191000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.1.1.apk",
         "hash": "3a97c1a491873b528cb52b1d92b49d1ddd70800e6e22fdc64f17b980ba598792",
         "hashType": "sha256",
@@ -1864,7 +1864,7 @@
         "versionName": "v3.1.1"
       },
       {
-        "added": 1789737189000,
+        "added": 1789689600000,
         "apkName": "NymVPN_nym-vpn-android-v3.1.0.apk",
         "hash": "b5f506a9645f1e862ce308ae2ef189931e185844c64b6a86286bae4dfa296f97",
         "hashType": "sha256",
