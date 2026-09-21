@@ -1,4 +1,7 @@
 name: Generate F-Droid repo
+concurrency:
+  group: fdroid-update
+  cancel-in-progress: false
 
 on:
   repository_dispatch:
