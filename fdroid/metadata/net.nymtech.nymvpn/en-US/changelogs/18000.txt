@@ -1,13 +1,3 @@
-What's new:
-- Crash fixes and stability improvements
-- Navigation adjustments
-
-SHA-256 fingerprint for the 4096-bit signing certificate:
-```sh
-3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
-```
-
-To verify fingerprint:
-```sh
-apksigner verify --print-certs [path to APK file] | grep SHA-256
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:500f9f3aef6526b4e9ec2350e98f08de7216ca07de77b9ed623e6da269320d37
+size 311

@@ -1,12 +1,3 @@
-What's new:
-- Fixed connection issue with tunnel lifecycle.
-
-SHA-256 fingerprint for the 4096-bit signing certificate:
-```sh
-3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
-```
-
-To verify fingerprint:
-```sh
-apksigner verify --print-certs [path to APK file] | grep SHA-256
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9de180da8a5f086d9d98295357ee0bbca7dd1d3d312ac7218797636100b49c5
+size 293

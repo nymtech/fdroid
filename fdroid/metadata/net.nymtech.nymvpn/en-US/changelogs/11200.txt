@@ -1,7 +1,3 @@
-What's new:
-- Fixes logs crash bug
-
-SHA256 fingerprint:
-```sh
-3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:550cc5d8dec8fe4707319380b9f6914ca583aebb1f55298de3a11f77bbfd469d
+size 131

@@ -1,8 +1,3 @@
-What's new:
-- UI improvements
-- Add credential trimming
-- Temp fix for connection errors
-
-
-SHA256 fingerprint:
-```3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06```
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2c182a14442106d1706f4e0751d7119b0f659fc869203ad99e5f1ed01d545ab
+size 182

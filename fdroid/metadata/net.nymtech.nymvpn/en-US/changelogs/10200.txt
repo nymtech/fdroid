@@ -1,9 +1,3 @@
-What's new:
-- Fixed connection state sync
-- Improved error messaging
-- Added permission denied flow
-- Removed debug logs from release
-
-
-SHA256 fingerprint:
-```3c98a016aa4f14a3ba185c764ed363415cf7ff3c3d328a87ffff2ff1b140ff06```
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f910ac9fe10295c972149efda6d8fbb2628fc2a92b5ae8de1cad90e9cba042e
+size 227

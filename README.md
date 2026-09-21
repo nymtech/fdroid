@@ -25,7 +25,7 @@ In the F-Droid app, search for “NymVPN” and follow the app install instructi
 2. To add the repository, click "SCAN QR CODE" and scan the QR code below or add the repository manually with the following URL:
 
     ```
-    https://raw.githubusercontent.com/nymtech/fdroid/main/fdroid/repo?fingerprint=06C095C54BBFE147C986FD29ADF4E9BCD5E95ECACD6D865C6045B66B0B5500FB
+    https://github.com/nymtech/fdroid/raw/refs/heads/main/fdroid/repo?fingerprint=06C095C54BBFE147C986FD29ADF4E9BCD5E95ECACD6D865C6045B66B0B5500FB
     ```
 
     <p align="center">
